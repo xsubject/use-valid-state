@@ -1,6 +1,7 @@
 # use-valid-state
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/xsubject/use-valid-state/blob/main/LICENSE)
+[![npm version](https://badge.fury.io/js/use-valid-state.svg)](https://badge.fury.io/js/use-valid-state)
 
 Custom React hook that provides a simple way to validate state in React application
 
