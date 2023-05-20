@@ -26,10 +26,6 @@ export function useValidState<T>(initalState?: InitalState<T>, ...validators: Va
 
     useEffect(() => {
         if(validators !== undefined) {
-            if(typeof state === "string" && state.length === 0) {
-                setIsValid(true);
-                return;
-            }
             setIsValid(
                 hasAnyFalse(
                     validators.map((validator) => {
