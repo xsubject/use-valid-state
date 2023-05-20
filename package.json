@@ -1,15 +1,29 @@
 {
   "name": "use-valid-state",
   "version": "1.0.0",
-  "description": "",
+  "description": "Custom React hook that provides a simple way to validate state in React application",
   "main": "build/index.js",
+  "homepage": "https://github.com/xsubject/use-valid-state",
   "scripts": {
     "prepare": "tsc",
     "build": "tsc"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "react",
+    "useState",
+    "state",
+    "state validation",
+    "validation",
+    "valid",
+    "use-state",
+    "use-state-valid",
+    "use-valid",
+    "use-valid-state",
+    "state-valid",
+    "hook"
+  ],
+  "author": "xsubject",
+  "license": "MIT",
   "husky": {
     "hooks": {
       "pre-commit": "pretty-quick --staged"
