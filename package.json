@@ -1,6 +1,5 @@
 {
   "name": "use-valid-state",
-  "version": "1.0.0",
   "description": "Custom React hook that provides a simple way to validate state in React application",
   "main": "build/index.js",
   "homepage": "https://github.com/xsubject/use-valid-state",
