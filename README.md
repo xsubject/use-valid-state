@@ -1,6 +1,6 @@
 # use-valid-state
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/xsubject/use-valid-state/blob/main/LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/xsubject/use-valid-state/blob/master/LICENSE)
 [![npm version](https://badge.fury.io/js/use-valid-state.svg)](https://badge.fury.io/js/use-valid-state)
 
 Custom React hook that provides a simple way to validate state in React application
@@ -105,4 +105,4 @@ const [age, setAge, isValidAge] = useValidState(6, NumberValidator.min(6), Numbe
 
 
 ## LICENSE
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/xsubject/use-valid-state/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/xsubject/use-valid-state/blob/master/LICENSE) file for details.
