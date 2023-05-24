@@ -24,5 +24,6 @@ export namespace StringValidator {
     export const macAddress = () => /^([0-9A-Fa-f]{2}[:-]){5}([0-9A-Fa-f]{2})$/;
     export const passportNumber = () => /^[A-PR-WY][1-9]\d\s?\d{4}[1-9]$/;
     export const currency = () => /^\$?[0-9]+(\.[0-9]{2})?$/;
-
+    export const min = (min: number) => ((x: string): boolean => x.length >= min);
+    export const max = (max: number) => ((x: string): boolean => x.length <= max);
 }
